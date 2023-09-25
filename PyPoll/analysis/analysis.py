@@ -77,8 +77,11 @@ with open(csvpath) as csvfile:
     print(f"{unique_list[0]}: {percent_candidate1}% ({candidate1_vote})")
     print(f"{unique_list[1]}: {percent_candidate2}% ({candidate2_vote})")
     print(f"{unique_list[2]}: {percent_candidate3}% ({candidate3_vote})")
+    print(f"------------------------------")
     print(f"Winner: {winner}")
+    print(f"------------------------------")
     
+    # Store results in text file
     with open("PyPoll/analysis/Output.txt", "w") as textfile:
         print(f"Election Results" +"\n",
               "------------------------------" +"\n",
@@ -87,4 +90,7 @@ with open(csvpath) as csvfile:
               f"{unique_list[0]}: {percent_candidate1}% ({candidate1_vote})" +"\n",
               f"{unique_list[1]}: {percent_candidate2}% ({candidate2_vote})" +"\n",
               f"{unique_list[2]}: {percent_candidate3}% ({candidate3_vote})" +"\n",
-              f"Winner: {winner}", file = textfile)
+              "------------------------------" +"\n",
+              f"Winner: {winner}" + "\n",
+              "------------------------------" +"\n",
+                 file = textfile)

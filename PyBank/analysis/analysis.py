@@ -61,6 +61,7 @@ with open(csvpath) as csvfile:
     print(f"Greatest Increase in Profits: {max_month} (${max_change})")
     print(f"Greatest Decrease in Profits: {min_month} (${min_change})")
 
+    # Store results in text file
     with open("PyBank/analysis/Output.txt","w") as textfile:
         print(f"Financial Analysis" + "\n",
               "-----------------------------" +"\n",

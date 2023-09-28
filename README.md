@@ -1,15 +1,14 @@
 # python-challenge
-![revenue-per-lead](https://github.com/gialiubc/python-challenge/assets/141379548/5ae970b4-d3bb-40c6-b35f-623f64f27993)
 
 ## Background Information
 In this project, python is used to analyze bank data and poll data.
-
+![revenue-per-lead](https://github.com/gialiubc/python-challenge/assets/141379548/5ae970b4-d3bb-40c6-b35f-623f64f27993)
 
 ## Project Content
-- A PyBank file with analysis file containing analysis result of bank data and output results;
-- A Resource file within PyBank for the original data being used;
-- A PyPoll file with analysis file containing analysis result of poll data and output results;
-- A Resource file within PyPoll for the original data being used.
+- A PyBank folder with analysis folder containing analysis result of bank data and output results;
+- A Resource folder within PyBank for the original data being used;
+- A PyPoll folder with analysis folder containing analysis result of poll data and output results;
+- A Resource folder within PyPoll for the original data being used.
 
 ![Vote_counting](https://github.com/gialiubc/python-challenge/assets/141379548/96cd4aab-17cc-4740-b519-db4d8591f7c2)
 

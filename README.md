@@ -1,4 +1,4 @@
-# python-challenge
+# Analyzing Data Using Python: Bank and Poll
 
 ## Background Information
 In this project, python is used to analyze bank data and poll data.
